@@ -128,7 +128,7 @@ a.switcher:before {
   width: 100%;
   height: 100%;
   border: 10px solid rgb(255, 255, 255);
-  border-color: solid rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
+  border-color: transparent rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
   border-radius: 0 0 200px 200px;
 }
 
