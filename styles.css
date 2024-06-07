@@ -108,7 +108,7 @@ a.switcher:before {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 100%;
 }
 
