@@ -169,12 +169,12 @@ a.switcher:before {
 .glitch .figure span:before {
   left: -2px;
   text-shadow: 2px 0 #00f;
-  animation: c2 1s infinite linear alternate-reverse;
+  animation: c2 3s infinite linear alternate-reverse;
 }
 .glitch .figure span:after {
   left: 3px;
   text-shadow: -2px 0 #f00;
-  animation: c1 1s infinite linear alternate-reverse;
+  animation: c1 2s infinite linear alternate-reverse;
 }
 @-webkit-keyframes is-off {
   0% {
