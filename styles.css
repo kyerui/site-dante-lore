@@ -60,7 +60,7 @@ a.switcher:before {
   position: absolute;
   width: 70px;
   background-image: url('Glowflower.png');
-  background-size:contain; /* Ajuste conforme necessário */
+  background-size:cover; /* Ajuste conforme necessário */
   top: 10%;
   left: 0;
   right: 40%;
@@ -86,7 +86,6 @@ a.switcher:before {
   bottom: 0;
   left: 0;
   margin: auto;
-
   border-top: 0px solid transparent;
   border-right: 100px solid #ffffff;
   border-left: 100px solid white;
@@ -129,7 +128,7 @@ a.switcher:before {
   width: 100%;
   height: 100%;
   border: 10px solid rgb(255, 255, 255);
-  border-color: transparent rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
+  border-color: solid rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
   border-radius: 0 0 200px 200px;
 }
 
