@@ -43,11 +43,9 @@ a.switcher {
   z-index: 999999999999;
   right: 2%;
   bottom: 4%;
-  width: 70px;
+  width: 80px;
   height: 82px;
   background: transparent;
-  border: 2px solid #fafafa;
-  border-radius: 50%;
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -60,7 +58,6 @@ a.switcher:before {
   display: block;
   content: '';
   position: absolute;
-  border-radius: 4px;
   width: 70px;
   background-image: url('Glowflower.png');
   background-size: cover; /* Ajuste conforme necessário */
@@ -100,7 +97,7 @@ a.switcher:before {
   margin: auto;
   border-top: 200px solid transparent;
   border-right: 100px solid #ffffff;
-  border-left: 1000px solid #ffffff;
+  border-left: 100px solid #ffffff;
   border-bottom: 100px solid transparent;
 } 
 
@@ -111,7 +108,7 @@ a.switcher:before {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0);
   border-radius: 100%;
 }
 
