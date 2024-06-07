@@ -46,7 +46,7 @@ a.switcher {
   width: 70px;
   height: 82px;
   background: transparent;
-  border: 2px solid #ffffff00;
+  border: 2px solid #fafafa;
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.25s;
@@ -78,6 +78,15 @@ a.switcher:before {
   overflow: hidden;
 }
 
+.figure {
+  position: relative;
+  width: 200px;
+  height: 115px;
+  margin: 50px auto;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
 .figure-mask {
   display: block;
   position: absolute;
@@ -90,20 +99,11 @@ a.switcher:before {
   left: 0;
   margin: auto;
   border-top: 200px solid transparent;
-  border-right: 100px solid #111;
-  border-left: 100px solid #ffffff;
-  border-bottom: 0 solid transparent;
+  border-right: 100px solid #ffffff;
+  border-left: 1000px solid #ffffff;
+  border-bottom: 100px solid transparent;
 } 
 
-.figure {
-  position: relative;
-  width: 200px;
-  height: 115px;
-  margin: 50px auto;
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-}
 
 .figure::before,
 .figure::after {
@@ -150,8 +150,8 @@ a.switcher:before {
 .glitch .figure,
 .glitch .figure-mask {
   transform: skewX(0deg) scaleY(1);
-  -webkit-animation: tr-bag 1s linear infinite;
-          animation: tr-bag 1s linear infinite;
+  -webkit-animation: tr-bag 2s linear infinite;
+          animation: tr-bag 2s linear infinite;
 }
 
 .glitch .figure span:before,
