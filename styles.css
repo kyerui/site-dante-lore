@@ -60,7 +60,7 @@ a.switcher:before {
   position: absolute;
   width: 70px;
   background-image: url('Glowflower.png');
-  background-size: cover; /* Ajuste conforme necessário */
+  background-size:contain; /* Ajuste conforme necessário */
   top: 10%;
   left: 0;
   right: 40%;
@@ -75,19 +75,9 @@ a.switcher:before {
   overflow: hidden;
 }
 
-.figure {
-  position: relative;
-  width: 200px;
-  height: 115px;
-  margin: 50px auto;
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  
-}
 .figure-mask {
   display: block;
-  position: absolute;
+  position: relative;
   z-index: 99;
   width: 0;
   height: 0;
@@ -96,14 +86,24 @@ a.switcher:before {
   bottom: 0;
   left: 0;
   margin: auto;
+
   border-top: 0px solid transparent;
   border-right: 100px solid #ffffff;
-  border-left: 100px solid #ffffff;
+  border-left: 100px solid white;
   border-bottom: 0px solid transparent;
-} 
-
-
-.figure::before,
+  } 
+  
+  .figure {
+    position: relative;
+    width: 200px;
+    height: 115px;
+    margin: 50px auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .figure::before,
 .figure::after {
   content: '';
   position: absolute;
