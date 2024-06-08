@@ -7,7 +7,8 @@ $(document).ready(function () {
 
   });
 
-function handleClick(event, url) {
+function handleClick(event) {
+  url = 'https://github.com/CNPC03'
   event.preventDefault();
   document.body.classList.add('blackout');
   setTimeout(function() {
